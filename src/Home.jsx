@@ -4,7 +4,7 @@ import { FaArrowRight } from "react-icons/fa";
 export default function Home() {
   return (
     <div className="min-h-screen bg-[url('/bgimage.png')] bg-cover bg-center relative">
-      <div className=" flex flex-col gap-8 md:flex items-center justify-between p-10">
+      <div className=" flex flex-col  md:flex-row gap-[3rem] items-center justify-between p-10">
         <div className="mt-22">
           <div>
             <p className="text-[14px] text-[#79CC66]">

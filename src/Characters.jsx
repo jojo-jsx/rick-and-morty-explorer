@@ -55,7 +55,7 @@ export default function Characters() {
       <div className="mb-4 text-[#79CC66]">
         <p className="text-[12px]">BROWSE THE MULTIVERSE</p>
       </div>
-      <div className=" flex flex-col gap-9 md:flex items-center justify-between mb-8">
+      <div className=" flex flex-col md:flex-row gap-9 items-center justify-between mb-8">
         <p className="text-5xl font-bold text-[#F2F2EF]">Character Database</p>
         <div className=" flex items-center gap-1 bg-[#02050A] px-3 py-2 rounded-4xl">
           <span className="text-green-700 animate-pulse">

@@ -61,7 +61,7 @@ export default function CharacterDetails() {
   console.log(character);
 
   return (
-    <div className="flex flex-col p-4 md:flex items-center justify-center  gap-10 bg-[#010204]">
+    <div className=" flex flex-col p-4  md:flex-row items-center md:p-8 justify-center  gap-10 bg-[#010204]">
       <div>
         <Link
           to={"/characters"}
@@ -75,20 +75,20 @@ export default function CharacterDetails() {
         <img
           src={character.image}
           alt={character.name}
-          className="w-100 rounded-2xl mt-10 shadow-[0_0_30px_rgba(121,204,102,0.4)]"
+          className=" w-80 md:w-100 rounded-2xl mt-10 shadow-[0_0_30px_rgba(121,204,102,0.4)]"
         />
       </div>
-      <div className="mt-4">
-        <div className="text-[12px] text-[#79CC66]">
+      <div className="mt-4 px-4 md:px-0">
+        <div className="text-[12px] text-[#79CC66] ml-8 md:ml-0">
           <p>(CHARACTER PROFILE)</p>
         </div>
-        <div className="text-5xl font-bold mt-1 mb-2 text-[#F2F2EF]">
+        <div className="text-5xl font-bold mt-1 mb-2 ml-8 md:ml-0 text-[#F2F2EF]">
           <h1>{character.name}</h1>
         </div>
-        <div className="text-2xl text-[#A09F96]">
+        <div className="text-2xl ml-8 md:ml-0 text-[#A09F96]">
           <p>{character.species}</p>
         </div>
-        <div className="mt-6 space-y-3">
+        <div className="mt-6 ml-8 md:ml-0 space-y-3">
           <div className={style()}>
             <span className="text-[#A09F96]">Status</span>
             <span className="flex items-center gap-1">
@@ -116,7 +116,7 @@ export default function CharacterDetails() {
           </div>
         </div>
         <div className="w-96 h-1  bg-[#04060C] mt-3"></div>
-        <div className="mt-3 text-[#A09F96]">
+        <div className="mt-3 text-[#A09F96] ml-8 md:ml-0 mb-8 md:mb-0">
           <p>- Last known location: {character.location.name}</p>
         </div>
       </div>

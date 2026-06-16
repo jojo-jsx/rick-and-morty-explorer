@@ -12,7 +12,7 @@ export default function Footer() {
 
   return (
     <div className="bg-[#797A7D]">
-      <div className="flex flex-col gap-4 md:flex items-center justify-between p-6">
+      <div className="flex flex-col md:flex-row gap-4 items-center justify-between p-6">
         <div>
           <h2 className="text-4xl font-bold text-[#F2F2EF] mb-4 ">
             R&M Explorer
