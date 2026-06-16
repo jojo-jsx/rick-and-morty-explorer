@@ -34,7 +34,15 @@ export default function Characters() {
   }, []);
 
   if (loading) {
-    return <div>..loading</div>;
+    return (
+      <div className="flex items-center justify-center h-screen bg-[#010204]">
+        <div class="balls">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+      </div>
+    );
   }
 
   function changeStatus(status) {
