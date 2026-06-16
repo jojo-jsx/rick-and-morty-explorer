@@ -61,7 +61,7 @@ export default function CharacterDetails() {
   console.log(character);
 
   return (
-    <div className="flex items-center justify-center h-screen gap-10 bg-[#010204]">
+    <div className="flex flex-col p-4 md:flex items-center justify-center  gap-10 bg-[#010204]">
       <div>
         <Link
           to={"/characters"}
